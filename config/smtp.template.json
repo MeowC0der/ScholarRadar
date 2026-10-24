@@ -1,0 +1,9 @@
+{
+  "_comment": "复制为 smtp.json 后填写；或用 scripts/setup.py set smtp --host ... --port 465 --user ... --password <授权码> --to ...",
+  "host": "smtp.example.com",
+  "port": 465,
+  "user": "you@example.com",
+  "password": "<邮箱授权码，不是登录密码>",
+  "to": "you@example.com",
+  "cc": ""
+}

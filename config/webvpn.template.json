@@ -1,0 +1,8 @@
+{
+  "_comment": "复制为 webvpn.json 后填写你自己的学校/单位 WebVPN；不做中文知网监测可整份留空",
+  "host": "https://webvpn.your-school.edu.cn",
+  "user": "<学号/工号>",
+  "password": "<密码>",
+  "cnki_entry": "https://webvpn.your-school.edu.cn/https/<hex>/",
+  "kns_hash": "<hex>"
+}

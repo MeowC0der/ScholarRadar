@@ -1,0 +1,5 @@
+{
+  "_comment": "复制为 openalex.json；api_key 可留空（走免费 polite pool，需 mailto）",
+  "api_key": "",
+  "mailto": "you@example.com"
+}

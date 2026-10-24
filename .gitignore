@@ -1,0 +1,16 @@
+# ---- 本地配置（含账号/授权码/API Key，绝不能提交）----
+config/*.json
+!config/*.template.json
+
+# ---- 运行产物 ----
+data/
+state/
+outbox/
+outputs/
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/

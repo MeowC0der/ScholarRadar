@@ -1,0 +1,7 @@
+{
+  "_comment": "复制为 llm.json；用于深度解读/摘要翻译，可留空",
+  "provider": "openai-compatible",
+  "base_url": "https://api.example.com/v1",
+  "api_key": "",
+  "model": ""
+}

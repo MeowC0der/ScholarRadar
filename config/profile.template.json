@@ -1,0 +1,68 @@
+{
+  "_comment": "复制为 profile.json 后替换成你自己的研究方向；或用 scripts/setup.py gen-profile 交互生成。方向关键词决定什么文献会被推给你，请认真填。",
+  "profile_version": "1.0.0",
+  "owner": "",
+  "theme": {
+    "zh": "一句话概括你的研究主题",
+    "en": ""
+  },
+  "directions": {
+    "A": {
+      "code": "A",
+      "name_zh": "研究方向 A 的名称",
+      "name_en": "Direction A",
+      "priority": "highest",
+      "alert_threshold_override": 75,
+      "research_questions": [
+        "这个方向关心的第一个问题？",
+        "第二个问题？"
+      ],
+      "keywords_en": ["keyword one", "keyword two", "keyword three"],
+      "keywords_zh": ["关键词一", "关键词二", "关键词三"]
+    },
+    "B": {
+      "code": "B",
+      "name_zh": "研究方向 B 的名称",
+      "name_en": "Direction B",
+      "priority": "high",
+      "alert_threshold_override": 75,
+      "research_questions": ["方向 B 的核心问题？"],
+      "keywords_en": ["keyword four", "keyword five"],
+      "keywords_zh": ["关键词四", "关键词五"]
+    }
+  },
+  "projects": {
+    "P1": {
+      "id": "P1",
+      "name": "在研项目名称",
+      "keywords_zh": ["项目关键词"],
+      "keywords_en": ["project keyword"]
+    }
+  },
+  "journals_en": [
+    {"name": "Example Journal of Something", "issn": "0000-0000", "tier": 90},
+    {"name": "Another Journal", "issn": "", "tier": 70}
+  ],
+  "journals_cn": [
+    {"name": "示例中文期刊", "issn": "", "tier": 90}
+  ],
+  "negative_keywords": {
+    "en": [],
+    "zh": []
+  },
+  "scoring": {
+    "weights": {
+      "d1_research_match": 0.35,
+      "d2_theory_transfer": 0.20,
+      "d3_method_value": 0.20,
+      "d5_writing_help": 0.15,
+      "d7_maturity": 0.10
+    },
+    "thresholds": {
+      "critical": 90,
+      "high": 75,
+      "recommended": 60
+    },
+    "default_journal_tier": 70
+  }
+}
